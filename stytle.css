@@ -1,0 +1,36 @@
+html {
+  box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+  padding: auto;
+  margin: auto;
+}
+
+nav a {
+  font-size: 150%;
+  text-decoration: none;
+}
+
+nav a:visited {
+  color: grey;
+}
+
+nav > a::after {
+  content: " | ";
+}
+
+header,
+footer {
+  border: thin solid aqua;
+}
+
+P::first-letter {
+  font-size: 150%;
+}
+
+a[target="blank"] {
+  color: darkgoldenrod;
+}
