@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
 html {
   box-sizing: border-box;
 }
@@ -7,12 +9,93 @@ html {
   box-sizing: inherit;
   padding: auto;
   margin: auto;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background-color: #ffd29d;
+}
+
+nav {
+  display: flex;
+  background-color: black;
 }
 
 nav a {
-  font-size: 150%;
   text-decoration: none;
+  padding: 10px;
+  color: whitesmoke;
 }
+
+main {
+  width: 60%;
+  height: 100vh;
+}
+
+section {
+  width: 60%;
+  height: 50vh;
+}
+
+footer {
+  height: 25vh;
+}
+
+h1 {
+  font-size: 300%;
+  padding: 20px 20px 20px 0px;
+}
+
+p {
+  padding-bottom: 10px;
+}
+
+img {
+  width: 500px;
+  height: auto;
+  border-radius: 20px;
+}
+
+caption {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.flex-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.demo {
+  height: 100%;
+  width: 60%;
+  border: 1px solid #c0c0c0;
+  border-collapse: collapse;
+  padding: 5px;
+}
+.demo th {
+  border: 1px solid #c0c0c0;
+  padding: 5px;
+  background: #f0f0f0;
+}
+.demo td {
+  border: 1px solid #c0c0c0;
+  padding: 5px;
+}
+
+.signature {
+  width: 60%;
+  padding-top: 20px;
+  font-size: 115%;
+  color: coral;
+  text-decoration: underline;
+}
+#about {
+  padding-top: 20px;
+}
+/* 
+
 
 nav a:visited {
   color: grey;
@@ -33,4 +116,4 @@ P::first-letter {
 
 a[target="blank"] {
   color: darkgoldenrod;
-}
+} */ ;
